@@ -13,7 +13,7 @@ public:
  {
  return v1;
  }
- Friend void swap(A &x,B &y)
+ friend void swap(A &x,B &y);
  };
  
  class B{
@@ -28,7 +28,7 @@ public:
  {
  return v2;
  }
- Friend void swap(A &x,B &y)
+ friend void swap(A &x,B &y);
  };
  
  void swap(A &x,B &y)
